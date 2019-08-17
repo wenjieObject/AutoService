@@ -1,0 +1,15 @@
+﻿
+        private I{modelName}Dal _{modelName}Dal;
+
+        public I{modelName}Dal {modelName}Dal
+        {
+            get
+            {
+                if (_{modelName}Dal == null)
+                {
+                    _{modelName}Dal = Create<{modelName}Dal>("{modelName}Dal");
+                }
+                return _{modelName}Dal;
+            }
+            set { _{modelName}Dal = value; }
+        }

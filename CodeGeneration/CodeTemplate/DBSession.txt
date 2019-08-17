@@ -1,0 +1,12 @@
+﻿using DAL;
+using IDAL;
+
+namespace DALFactory
+{
+    public partial class DBSession
+    {
+
+        {content}
+
+    }
+}
