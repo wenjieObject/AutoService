@@ -41,7 +41,7 @@ namespace AutoService
 
             //Console.WriteLine(model.JOBNO);
             //Console.WriteLine(model1.ID);
- PLAN_JOBDISPATCHBLL bll=new PLAN_JOBDISPATCHBLL();
+            PLAN_JOBDISPATCHBLL bll=new PLAN_JOBDISPATCHBLL();
             var model = bll.LoadEntities(t => t.ACTIVITY == 1).Take(1).FirstOrDefault();
             Console.WriteLine(model.JOBNO);
             Console.ReadLine();
